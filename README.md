@@ -5,6 +5,7 @@
 ## Description
 
 A port of [UrbanBishop](https://github.com/FuzzySecurity/Sharp-Suite#urbanbishop) project for inline shellcode execution. The execution vector uses a delegate vs an APC on a suspended threat at ntdll!RtlExitUserThread in UrbanBishop
+
 I've created this fork because it was very unpleasent, to change source file whenever i tried different approach with the shellcode or XOR key. Im not a c# dev at all, feel free to fork and modify this version as you wish.
 
 - `NtCreateSection` is used to create a section object
