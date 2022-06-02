@@ -8,6 +8,8 @@ A port of [UrbanBishop](https://github.com/FuzzySecurity/Sharp-Suite#urbanbishop
 
 I've created this fork because it was very unpleasent, to change source file whenever i tried different approach with the shellcode or XOR key. Im not a c# dev at all, feel free to fork and modify this version as you wish.
 
+Supposed to be used on a local machine for a real-time testing, for compiled version check-out other branch.
+
 - `NtCreateSection` is used to create a section object
 - `NtMapViewOfSection` creates a section view with RW permissions we can write shellcode to
 - Shellcode is written to the section view
